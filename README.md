@@ -50,7 +50,7 @@ MGYA00383253
 Run:
 
 ```bash
-python download_mgnify_contigs_from_csv.py \
+python mgnify_assembly_downloader.py \
     -i mgya_ids.txt \
     -o mgya_contigs \
     -t 4
